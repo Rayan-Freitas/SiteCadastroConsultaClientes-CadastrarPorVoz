@@ -1,23 +1,10 @@
 import speech_recognition as sr
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 import pyttsx3
 import keyboard
-import pywhatkit
-import datetime
-import wikipedia
-import pyautogui
-import time
-import os
-import subprocess
-import pyaudio
-import requests
 import time
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from pygame import mixer
 
 navegador = webdriver.Chrome("chromedriver.exe")
 
